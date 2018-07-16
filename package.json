@@ -1,6 +1,6 @@
 {
   "name": "maythe4th",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,8 +20,12 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "bootstrap": "^4.1.2",
     "core-js": "^2.5.4",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
@@ -44,5 +48,22 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1"
-  }
+  },
+  "description": "Star Wars API with Angular https://swapi.co/",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilangdarmawan/maythe4th.git"
+  },
+  "keywords": [
+    "Angular",
+    "Star",
+    "Wars"
+  ],
+  "author": "Gilang Darmawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilangdarmawan/maythe4th/issues"
+  },
+  "homepage": "https://github.com/gilangdarmawan/maythe4th#readme"
 }

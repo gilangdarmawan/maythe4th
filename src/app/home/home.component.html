@@ -1,0 +1,30 @@
+<div *ngIf="userData">
+  <div class="container">
+    <div class="row">
+      <div class="user-title">
+        {{userData.name}}<br>
+        {{userData.height}}<br>
+        {{userData.mass}}<br>
+        {{userData.hair_color}}<br>
+        {{userData.skin_color}}<br>
+        {{userData.eye_color}}<br>
+        {{userData.birth_year}}<br>
+        {{userData.gender}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <h4>{{userData.name}} Movies :</h4>
+        <div class="row" *ngFor="let movieList of userData.films">
+          <!-- <div class="col-md-3">
+            
+          </div> -->
+          <p>{{movieList}}</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <p>Related Movie</p>
+      </div>
+    </div>
+  </div>
+</div>
